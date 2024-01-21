@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="mb-3">
+      <div>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Navbar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Contato</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./sobre.html">Sobre</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <img
+          class="img-fluid w-100"
+          src="https://placehold.co/800x150?text=Banner"
+          alt=""
+        />
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 my-3">
+            <!-- LOCATION CARD -->
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Localização</h5>
+                <p class="card-text">
+                  Av. Corifeu de Azevedo Marques, 3097 - Vila Butantã, São Paulo
+                  - SP, 05339-000
+                </p>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1493.7955797769605!2d-46.741777921187214!3d-23.569466341806258!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5791bb394183%3A0x227cfb3f4a4a2e02!2sGrupo%20RD%20Raia%20Drogasil!5e0!3m2!1spt-BR!2sbr!4v1705857051462!5m2!1spt-BR!2sbr"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  class="w-100"
+                ></iframe>
+                <a
+                  href="https://maps.app.goo.gl/TuC6u8zFYeWqoxzd7"
+                  target="_blank"
+                  class="btn btn-primary mt-2"
+                  >Ir para o Maps</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- FORM -->
+          <form class="col-md-6 mt-3" action="">
+            <h5 class="text-center mb-3">Formulário de Contato</h5>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1"
+                >Insira seu nome</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon2"
+                >Insira seu email</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Insira seu email"
+                aria-describedby="basic-addon2"
+              />
+            </div>
+
+            <div class="input-group">
+              <span class="input-group-text">Escreva sua mensagem</span>
+              <textarea
+                class="form-control"
+                aria-label="Escreva sua mensagem"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="container my-5">
+        <h5 class="my-3">Siga-nos</h5>
+        <div style="gap: 10px" class="d-flex">
+          <a class="text-dark mr-3" href=""
+            ><i style="font-size: 1.5rem" class="bi bi-facebook"></i
+          ></a>
+          <a class="text-dark mr-3" href=""
+            ><i style="font-size: 1.5rem" class="bi bi-twitter-x"></i
+          ></a>
+          <a class="text-dark mr-3" href=""
+            ><i style="font-size: 1.5rem" class="bi bi-instagram"></i
+          ></a>
+        </div>
+        <p class="mt-2">&copy 2024 Política de privacidade</p>
+      </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
